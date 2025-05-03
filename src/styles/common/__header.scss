@@ -8,11 +8,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff27;
-    backdrop-filter: blur(2px);
-}
-
-body {
-    padding-top: 5rem;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #d3d2d2;
 }
 
 .header__nav {
@@ -27,7 +24,7 @@ body {
 .link__contact {
     padding:  .6rem 1rem;
     border-radius: 7px;
-    width: 4rem;
+    width: 5rem;
     color: #fff;
     background-color: #276afa;
 }
@@ -38,6 +35,6 @@ body {
 }
 
 .link, .link__contact {
-    font-weight: semi-bold;
+    font-weight: 600;
     text-decoration: none;  
 }

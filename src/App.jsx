@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    
     <Header />
       <Routes>
         <Route path="/" element={<Dashboards />}/>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/proyectos" element={<Proyects />}/>
         <Route path="/contacto" element={<Contact />}/>
       </Routes>
+
     </BrowserRouter>
     </>
   )

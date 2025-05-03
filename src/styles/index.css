@@ -1,60 +1,17 @@
-.header {
-  padding: 1rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.1529411765);
-  backdrop-filter: blur(2px);
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 3 | @use './pages/__dashboard';
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src\styles\main.scss 3:1  root stylesheet */
 
-body {
-  padding-top: 5rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @use './pages/__dashboard';\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src\\styles\\main.scss 3:1  root stylesheet";
 }
-
-.header__nav {
-  width: auto;
-}
-
-.nav__links {
-  width: 100%;
-  list-style: none;
-}
-
-.link__contact {
-  padding: 0.6rem 1rem;
-  border-radius: 7px;
-  width: 4rem;
-  color: #fff;
-  background-color: #276afa;
-}
-
-.link {
-  color: #262627;
-  padding: 1rem;
-}
-
-.link, .link__contact {
-  font-weight: semi-bold;
-  text-decoration: none;
-}
-
-.u-flex {
-  display: flex;
-}
-
-.u-flex-bw {
-  display: flex;
-  justify-content: space-between;
-}
-
-.u-flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*# sourceMappingURL=index.css.map */
