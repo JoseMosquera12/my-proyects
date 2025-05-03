@@ -1,0 +1,12 @@
+
+
+function Contact() {
+    
+    return (
+        <>
+            Contacto
+        </>
+    )
+}
+
+export default Contact

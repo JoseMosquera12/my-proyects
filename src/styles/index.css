@@ -1,0 +1,60 @@
+.header {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1529411765);
+  backdrop-filter: blur(2px);
+}
+
+body {
+  padding-top: 5rem;
+}
+
+.header__nav {
+  width: auto;
+}
+
+.nav__links {
+  width: 100%;
+  list-style: none;
+}
+
+.link__contact {
+  padding: 0.6rem 1rem;
+  border-radius: 7px;
+  width: 4rem;
+  color: #fff;
+  background-color: #276afa;
+}
+
+.link {
+  color: #262627;
+  padding: 1rem;
+}
+
+.link, .link__contact {
+  font-weight: semi-bold;
+  text-decoration: none;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flex-bw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.u-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map */
